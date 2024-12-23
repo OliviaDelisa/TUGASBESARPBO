@@ -1,0 +1,20 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "BPJS",
+            "database": "db_SistemBPJS",
+            "username": "postgres",
+            "password": "oliviagis"
+        }
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}
